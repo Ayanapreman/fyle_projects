@@ -6,11 +6,13 @@
 .page{
     width: 50%;
     height: 20%;
-    margin: 50px;
-    padding-left: 10px;
+    margin: 300px;
+    margin-top: 30px;
+    padding-left: 6px;
     box-sizing: border-box;
     border-style: solid  ;
-    border-width:medium;
+    border-width:thin;
+    
 } 
 
 .circle{
