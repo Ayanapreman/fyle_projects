@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 50%;
+    height: 20%;
+    margin: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-style: solid  ;
+    border-width:medium;
+} 
+
+.circle{
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(231, 231, 231);
+}
+.circle h6{
+margin: 40px;
+font-size: xx-small;
+color: rgb(174, 174, 174);
+}
+
+.intro{
+    display: flex;
+}
+.details{
+    padding-left: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.details h2{
+    font-size: large;
+}
+.details h4{
+    font-size: x-small;
+}
+.details span h4{
+    display: inline;
+}
+.link h6{
+    display: inline;
+    font-size: x-small;
+}
+
+.container {
+
+    display: flex;
+    /* width: 20px; */
+    
+    /* justify-content: center; */
+
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-style: solid ;
+    border-width:medium;
+    margin: 10px;
+    /* padding: 10px; */
+}
+.card h5{
+    color:rgb(0, 150, 255);
+
+}
+.card h6{
+    font-size: smaller;
+
+}
+.lang{
+    display: flex;
+    color: white;
+    justify-content: space-around; 
+    padding: 5px;
+}
+ .lang h6{
+    padding: 6px;
+    margin-right: 10px;
+    background:rgb(0, 150, 255);
+    font-size: x-small;
+} 
+
+.card h4{
+    font-size:medium;
+}
+
+
+
+
